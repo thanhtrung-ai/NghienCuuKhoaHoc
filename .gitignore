@@ -1,0 +1,32 @@
+# Python/runtime
+.venv/
+__pycache__/
+*.py[cod]
+.cph/
+
+# Generated datasets
+durian-disease-split/
+durian-classification/
+
+# Training and evaluation outputs
+runs/
+pipeline_eval_outputs*/
+prediction_outputs/
+sample_predict_outputs/
+confusion_matrix.csv
+class_names.json
+best_durian_classifier.pth
+final_output.jpg
+single_test_output.jpg
+prediction_results.json
+
+# Report, slide, and document exports
+BAO_CAO_*.md
+*.docx
+*.pdf
+*.pptx
+export_ppt_outline_docx.py
+update_experiment_slide.py
+
+# Unused or accidental local model files
+yolo26n.pt

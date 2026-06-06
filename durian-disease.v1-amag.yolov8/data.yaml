@@ -1,0 +1,12 @@
+train: train/images
+val: train/images
+
+nc: 2
+names: ['mold', 'rot']
+
+roboflow:
+  workspace: towppys-nest
+  project: durian-disease-mpdmj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/towppys-nest/durian-disease-mpdmj/dataset/1
